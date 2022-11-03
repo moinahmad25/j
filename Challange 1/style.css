@@ -1,0 +1,78 @@
+.card{
+    display: flex;
+    justify-content: center;
+}
+.video-card{
+    width: 650px;
+    height: 480px;
+    border: 1px solid gray;
+    border-radius: 8px 20px;
+    background-color: rgb(46, 46, 46);
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.duration{
+    width: 50px;
+    font-size: 13px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 115px;
+}
+.icn1{
+    height: 70px;
+    border-radius: 50%; 
+    position: absolute;
+    left: 20px;
+    bottom: 125px;
+}
+.thumbnail{
+    width: 100%;
+    border-radius: 8px 20px 0 0;
+}
+.icon-title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icn{
+    height: 60px;
+    border-radius: 50%;
+}
+.heading{
+    width: 500px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: white;
+}
+.parent{
+    display: flex;
+    margin-left: -15px;
+}
+.descrition{
+    color: rgb(206, 206, 206);
+    font-size: 11px;
+    margin-top: -19px;
+    position: relative;
+    margin-left: 15px;
+    letter-spacing: 0.8px;
+}
+.dot{
+    font-size: 15px;
+    position: absolute;
+    right: -9px;
+    bottom: 1px;
+}
+.three-dot{
+    position: relative;
+}
+.fi{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.banner{
+    margin: 30px;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.center{
+    text-align: center;
+}
+.poster{
+    width: 90%;
+    height: 650px;
+    border-radius: 16px;
+}
+.description{
+    position: absolute;
+    left: 10%;
+    top: 100px;
+    color: white;
+}
+.why{
+    font-size: 30px;
+    margin: 15px 0;
+    font-weight: light;
+}
+.reach{
+    width: 400px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.describe{
+    font-size: 20px;
+    width: 550px;
+    margin-bottom: 25px;
+}
+.btn{
+    padding: 20px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 60px;
+    cursor: pointer;
+}
